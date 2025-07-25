@@ -89,9 +89,21 @@ plt.show()
 ```
   ![Scatter Plot](screenshot/distance.png)
   
-### 🔸 Hourly Ride Trends
+###  Hourly Ride Trends
+```python
+avg_fare_by_hour = df.groupby('hour')['fare_amount'].mean()
 
-![Time Analysis](screenshots/time_analysis.png)
+plt.plot(avg_fare_by_hour.index, avg_fare_by_hour.values)
+plt.title('Average Fare by Hour of Day')
+plt.xlabel('Hour of Day')
+plt.ylabel('Average Fare Amount ($)')
+plt.xticks(range(0, 24))
+plt.grid(True)
+plt.show()
+```
+
+![Time Analysis](screenshot/time.png)
+
 ---
 
 ## 📁 Project Structure
