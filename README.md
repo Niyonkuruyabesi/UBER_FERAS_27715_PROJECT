@@ -73,3 +73,38 @@ This project is part of the *Introduction to Big Data Analytics (INSY 8413)* cou
 
 ## 📁 Project Structure
 
+---
+
+## 📌 Key Findings
+
+- Rides taken during peak hours tend to have higher fare amounts.
+- Short-distance rides within the city contribute to most of the total ride count.
+- Fare prices vary significantly based on time of day and day of the week.
+
+---
+
+## ✅ Recommendations
+
+- **Optimize pricing** during peak hours based on demand.
+- **Target promotions** on low-activity days (e.g., Mondays).
+- **Use location-based analysis** for surge pricing and dispatch planning.
+
+---
+
+## 👨‍💻 Author
+
+**NIYONKURU YABESI**  
+Medical Laboratory Scientist & Data Enthusiast  
+📧 Email: [Your Email]  
+📘 Course: Introduction to Big Data Analytics, AUCA  
+🔗 Instructor: Eric Maniraguha | [LinkedIn](https://www.linkedin.com/in/ericmaniraguha/)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License – feel free to use, modify, and share.
+
+---
+
+
