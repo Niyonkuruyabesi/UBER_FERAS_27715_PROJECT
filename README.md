@@ -58,14 +58,7 @@ This project is part of the *Introduction to Big Data Analytics (INSY 8413)* cou
 ##  Screenshots
 
 ### 🔹 Power BI Dashboard Preview
-``` python
-df['fare_amount'] = pd.to_datetime(df['fare_amount'])  
-df['fare_amount'].value_counts().sort_index().plot(kind='line')
-plt.title('fare distrubution  ')
-plt.xlabel('fare_amount')
-plt.ylabel('pickup_datetime')
-plt.show()
-```
+
 
 ![Dashboard Overview](screenshot/dashboard.png)
 
@@ -83,9 +76,18 @@ plt.show()
 
   ![Fare Histogram](screenshot/fare_distrubution.png)
 
-- **Fare vs Distance**  
-  ![Scatter Plot](screenshot/distance.png)
+- **Fare vs Distance**
+  ```phyton
+  import seaborn as sns
+import matplotlib.pyplot as plt
 
+sns.scatterplot(x='distance_km', y='fare_amount', data=df, alpha=0.3)
+plt.title('Fare Amount vs. Distance')
+plt.xlabel('Distance Traveled (km)')
+plt.ylabel('Fare Amount ($)')
+plt.show()
+  ![Scatter Plot](screenshot/distance.png)
+```
 ---
 
 ## 📁 Project Structure
