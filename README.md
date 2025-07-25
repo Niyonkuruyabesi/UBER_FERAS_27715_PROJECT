@@ -86,8 +86,9 @@ plt.title('Fare Amount vs. Distance')
 plt.xlabel('Distance Traveled (km)')
 plt.ylabel('Fare Amount ($)')
 plt.show()
-  ![Scatter Plot](screenshot/distance.png)
 ```
+  ![Scatter Plot](screenshot/distance.png)
+
 ---
 
 ## 📁 Project Structure
