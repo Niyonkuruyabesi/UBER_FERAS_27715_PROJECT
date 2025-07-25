@@ -71,8 +71,8 @@ plt.show()
 
 ### 🔹 EDA Visualization Samples
 
-- **Fare Distribution**
-  ``` python
+ **Fare Distribution**
+``` python
 df['fare_amount'] = pd.to_datetime(df['fare_amount'])  
 df['fare_amount'].value_counts().sort_index().plot(kind='line')
 plt.title('fare distrubution  ')
