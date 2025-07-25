@@ -64,7 +64,7 @@ This project is part of the *Introduction to Big Data Analytics (INSY 8413)* cou
 ### 🔹 EDA Visualization Samples
 
 - **Fare Distribution**  
-  ![Fare Histogram](screenshot/fare_distribution.png)
+  ![Fare Histogram](screenshot/fare_distrubution.png)
 
 - **Fare vs Distance**  
   ![Scatter Plot](screenshot/distance.png)
