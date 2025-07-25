@@ -59,15 +59,15 @@ This project is part of the *Introduction to Big Data Analytics (INSY 8413)* cou
 
 ### 🔹 Power BI Dashboard Preview
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshot/dashboard.png)
 
 ### 🔹 EDA Visualization Samples
 
 - **Fare Distribution**  
-  ![Fare Histogram](screenshots/fare_distribution.png)
+  ![Fare Histogram](screenshot/fare_distribution.png)
 
 - **Fare vs Distance**  
-  ![Scatter Plot](screenshots/fare_vs_distance.png)
+  ![Scatter Plot](screenshot/distance.png)
 
 ---
 
