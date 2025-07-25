@@ -76,7 +76,7 @@ plt.show()
 
   ![Fare Histogram](screenshot/fare_distrubution.png)
 
-- **Fare vs Distance**
+ **Fare vs Distance**
   ```phyton
   import seaborn as sns
 import matplotlib.pyplot as plt
