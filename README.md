@@ -58,6 +58,14 @@ This project is part of the *Introduction to Big Data Analytics (INSY 8413)* cou
 ##  Screenshots
 
 ### 🔹 Power BI Dashboard Preview
+``` python
+df['fare_amount'] = pd.to_datetime(df['fare_amount'])  
+df['fare_amount'].value_counts().sort_index().plot(kind='line')
+plt.title('fare distrubution  ')
+plt.xlabel('fare_amount')
+plt.ylabel('pickup_datetime')
+plt.show()
+```
 
 ![Dashboard Overview](screenshot/dashboard.png)
 
