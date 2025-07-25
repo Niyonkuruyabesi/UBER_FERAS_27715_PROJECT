@@ -88,7 +88,10 @@ plt.ylabel('Fare Amount ($)')
 plt.show()
 ```
   ![Scatter Plot](screenshot/distance.png)
+  
+### 🔸 Hourly Ride Trends
 
+![Time Analysis](screenshots/time_analysis.png)
 ---
 
 ## 📁 Project Structure
