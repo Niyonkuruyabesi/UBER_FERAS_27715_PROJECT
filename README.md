@@ -114,8 +114,8 @@ plt.show()
 ##  Author
 
 **NIYONKURU YABESI**  
-Medical Laboratory Scientist & Data Enthusiast  
-  Email: [Your Email]  
+student at AUCA 
+  Email: [niyonkuruyabesi@gmail.com]  
   Course: Introduction to Big Data Analytics, AUCA  
   Instructor: Eric Maniraguha | [LinkedIn](https://www.linkedin.com/in/ericmaniraguha/)
 
